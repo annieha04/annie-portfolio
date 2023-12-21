@@ -10,3 +10,15 @@ h3 {
 img {
     width: 420px;
 }
+
+body{
+    width: 250%;
+    height: 250vh;
+    background: linear-gradient(
+      to top,
+      pink 0%,
+      pink 25%,
+      white 50%,
+      white 100%
+    );
+  }
