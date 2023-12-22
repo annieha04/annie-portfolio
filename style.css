@@ -22,3 +22,7 @@ body{
       white 100%
     );
   }
+
+  hr.solid {
+    border-top: 2px solid hotpink;
+  }
