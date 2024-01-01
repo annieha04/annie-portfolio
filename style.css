@@ -13,7 +13,7 @@ img {
 }
 
 body{
-    width: 250%;
+    width: 400%;
     height: 300vh;
     background: linear-gradient(
       to top,
@@ -38,6 +38,10 @@ nav {
   top: 0%;
   width: 100%;
   padding: 16px;
+  left: 0;
+  right: 0;
+  align-items: center;
+
 }
 nav a {
   float: left;
