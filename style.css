@@ -1,5 +1,6 @@
 h1 {
-    color: hotpink;
+  padding-top: 60px;  
+  color: hotpink;
 }
 h2 {
     color: hotpink;
@@ -13,13 +14,13 @@ img {
 
 body{
     width: 250%;
-    height: 250vh;
+    height: 300vh;
     background: linear-gradient(
       to top,
-      pink 0%,
-      pink 25%,
-      white 50%,
-      white 100%
+      skyblue 0%,
+      rgb(209, 170, 209) 25%,
+      mistyrose 50%,
+      rgb(253, 225, 242) 100%
     );
   }
 
@@ -29,3 +30,20 @@ body{
   
   @media screen and (max-width: 400px) {
   }
+
+nav {
+  overflow: hidden;
+  background-color: rgb(253, 225, 242);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  padding: 16px;
+}
+nav a {
+  float: left;
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
